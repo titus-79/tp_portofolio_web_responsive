@@ -1,12 +1,24 @@
+@font-face {
+  font-family: "Poppins", cursive;
+  src: url(ressources/fonts/PoppinsRegular.woff2);
+}
+@font-face {
+  font-family: "Montserrat", monospace;
+  src: url(ressources/fonts/MontserratVariableFontwght.woff2);
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(ressources/fonts/RobotoRegular.woff2);
+}
 body {
   background-color: #7496A8;
-  font-family: url(ressources/fonts/MontserratVariableFontwght.woff2), sans-serif;
+  font-family: "Montserrat", monospace;
 }
 
 header {
   background-color: #4A748B;
   text-align: center;
-  font-family: url(ressources/fonts/PoppinsRegular.woff2);
+  font-family: "Poppins", cursive;
 }
 
 header > nav ul li {
@@ -15,12 +27,21 @@ header > nav ul li {
 }
 
 header > nav ul li > a {
-  font-family: url(ressources/fonts/PoppinsRegular.woff2);
+  font-family: "Poppins", cursive;
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #5F4602;
+  padding: 15px;
 }
 
 h1 {
   color: #04293C;
   text-align: center;
+  padding: 20px;
+  margin: 0;
   font-size: 4em;
 }
 
@@ -31,12 +52,22 @@ main {
 
 h2 {
   color: #5F1702;
-  font-family: url(ressources/fonts/PoppinsRegular.woff2);
+  font-family: "Montserrat", monospace;
   font-size: 2em;
 }
 
 p {
   font-size: 1.5em;
+}
+
+.presentation > img {
+  width: 50%;
+  border-radius: 5px;
+  border-style: double;
+}
+
+.presentation {
+  display: flex;
 }
 
 form {

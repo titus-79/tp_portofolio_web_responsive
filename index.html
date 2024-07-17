@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/styles.css">
 
-    <title>Portofolio</title>
+    <title>Portfolio</title>
 </head>
 <body>
 
-<header>
-    <h1>Portofolio Web Responsive</h1>
+<header id="header">
+    <h1>Portfolio Web Responsive</h1>
     <nav>
         <ul>
             <li><a href="#about">about</a></li>
-            <li><a href="#portofolio">portofolio</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
             <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
@@ -25,8 +25,10 @@
 <main>
     <section id="about">
         <h2>À propos de moi</h2>
-        <img src="./ressources/profil.jpg" alt="photo de profil">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores doloribus fugit labore minima nisi obcaecati optio placeat quas quis sequi!</p>
+        <div class="presentation">
+            <img src="./ressources/profil.jpg" alt="photo de profil">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores doloribus fugit labore minima nisi obcaecati optio placeat quas quis sequi!</p>
+        </div>
     </section>
     <section id="portfolio">
         <h2>Portfolio</h2>
@@ -42,7 +44,7 @@
         <h2>Contact</h2>
         <form method="post" action="#">
             <label for="name">Votre Nom:</label><br>
-            <input id="name" type="name" placeholder="Ex: Dupond" minlength="2" maxlength="20" required/><br>
+            <input id="name" type="text" placeholder="Ex: Dupond" minlength="2" maxlength="20" required/><br>
             <label for="email">Votre Nom:</label><br>
             <input id="email" type="email" placeholder="Ex: Dupond.Jean@laposte.net" minlength="2" maxlength="30" required/><br>
             <label for="message">Votre Message:</label><br>
@@ -54,12 +56,14 @@
 
         </form>
     </section>
+
 </main>
 <footer class="footer">
     <p class="footer-text">© 2024 Mon Site Web. Tous droits réservés.</p>
-    <a href="https://www.instagram.com/">Instagram</a></li>
-    <a href="https://twitter.com/">twitter</a></li>
-    <a href="https://www.facebook.com/">Facebook</a></li>
+    <a href="https://www.instagram.com/">Instagram</a>
+    <a href="https://twitter.com/">twitter</a>
+    <a href="https://www.facebook.com/">Facebook</a>
+    <a href="#header">Haut de page</a>
 </footer>
 </body>
 </html>

@@ -3,13 +3,13 @@
 
 body{
 background-color: $primary-color1;
-  font-family: $font-family-secondary, sans-serif;
+  font-family: 'Montserrat', monospace;
 }
 
 header{
   background-color: $primary-color;
   text-align: center;
-  font-family:$font-family-primary;
+  font-family:'Poppins', cursive;
 
 }
 
@@ -19,13 +19,22 @@ header>nav ul li {
 }
 
 header>nav ul li>a {
-  font-family:$font-family-primary;
+  font-family: 'Poppins', cursive;
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: $secondary-color4;
+  padding: 15px;
 }
 
 
 h1 {
   color: $primary-color4;
   text-align: center;
+  padding: 20px;
+  margin: 0;
   font-size: 4em;
 
 }
@@ -37,12 +46,25 @@ main{
 
 h2 {
   color: $thirdary-color4;
-  font-family:$font-family-primary;
+  font-family: 'Montserrat', monospace;
   font-size: 2em;
 }
 
 p {
   font-size: 1.5em;
+}
+#about {
+
+}
+.presentation>img {
+  width: 50%;
+  border-radius: 5px;
+  border-style: double;
+}
+
+.presentation {
+  display: flex;
+
 }
 
 form {

@@ -1,3 +1,18 @@
-$font-family-primary: url(ressources/fonts/PoppinsRegular.woff2);
-$font-family-secondary: url(ressources/fonts/MontserratVariableFontwght.woff2);
-$font-family-thirdary: url(ressources/fonts/RobotoRegular.woff2)
+$font-family-primary: Poppins;
+$font-family-secondary: Montserrat;
+$font-family-thirdary: Roboto;
+
+@font-face {
+  font-family: 'Poppins', cursive;
+  src: url(ressources/fonts/PoppinsRegular.woff2);
+}
+
+@font-face {
+  font-family: 'Montserrat', monospace;
+  src: url(ressources/fonts/MontserratVariableFontwght.woff2);
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(ressources/fonts/RobotoRegular.woff2);
+}
