@@ -1,0 +1,54 @@
+@import"_variable.scss";
+@import"_font-family.scss";
+
+body{
+background-color: $primary-color1;
+  font-family: $font-family-secondary, sans-serif;
+}
+
+header{
+  background-color: $primary-color;
+  text-align: center;
+  font-family:$font-family-primary;
+
+}
+
+header>nav ul li {
+  display: inline;
+  margin: 30px;
+}
+
+header>nav ul li>a {
+  font-family:$font-family-primary;
+}
+
+
+h1 {
+  color: $primary-color4;
+  text-align: center;
+  font-size: 4em;
+
+}
+
+main{
+  margin:20px;
+  padding: 0;
+}
+
+h2 {
+  color: $thirdary-color4;
+  font-family:$font-family-primary;
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+form {
+  height: 300px;
+  width: 202px;
+  border: black 1px solid;
+  background-color:lightgrey;
+  margin: auto;
+}
