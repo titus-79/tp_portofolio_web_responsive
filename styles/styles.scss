@@ -114,11 +114,18 @@ form>input.bordure, textarea {
   border-radius: 4px;
 
 }
+.block_cta {
+  display: flex;
+  justify-content: space-evenly;
+
+}
 
 .block_cta>input {
   color: $primary-color4;
   background-color: $primary-color1;
   border:$primary-color4 solid 1px;
+  border-radius: 4px;
+  box-shadow: $secondary-color3 5px 5px;
   padding:5px;
 }
 
@@ -128,6 +135,10 @@ form>input.bordure, textarea {
   border:$primary-color1 solid 1px;
 }
 
+.block_cta>input:active {
+  transform: translateY(1px) translateX(1px);
+  box-shadow: $secondary-color4 2px 2px;
+}
 .footer {
   background-color: $thirdary-color;
   border: 2px double $thirdary-color4;

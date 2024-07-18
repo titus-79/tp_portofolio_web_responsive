@@ -122,10 +122,17 @@ form > input.bordure, textarea {
   border-radius: 4px;
 }
 
+.block_cta {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .block_cta > input {
   color: #04293C;
   background-color: #7496A8;
   border: #04293C solid 1px;
+  border-radius: 4px;
+  box-shadow: #8B6D1B 5px 5px;
   padding: 5px;
 }
 
@@ -133,6 +140,11 @@ form > input.bordure, textarea {
   color: #7496A8;
   background-color: #04293C;
   border: #7496A8 solid 1px;
+}
+
+.block_cta > input:active {
+  transform: translateY(1px) translateX(1px);
+  box-shadow: #5F4602 2px 2px;
 }
 
 .footer {
